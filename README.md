@@ -5,7 +5,10 @@ TrackNow is a web app for a large residential campus (built around IIT Bombay's 
 1. **Public transport tracking**: students see campus buggies, shuttles and autos moving live on a map, and can tap **"I'm here"** so drivers know where people are waiting.
 2. **Visitor vehicle management for security**: a guard at the gate scans a visiting vehicle's number plate with the phone camera (OCR), issues a **one-time QR pass** with a time limit, and sees every visitor vehicle live on a map. Vehicles that overstay are **automatically red-listed**, and the guard is alerted the next time that plate shows up.
 
-> **Live app:** _add your deployed link here_ · **Demo video:** _optional_
+> **Interactive demo:** https://claude.ai/artifact/6LUp7p5Rff7kPXYRs2G8vN
+> Runs in the browser: the real plate-OCR pipeline, with the server simulated using the same rules as the backend (one-time QR passes, expiry, red list).
+>
+> **Full deployment:** _add your Vercel link here_
 
 ---
 
