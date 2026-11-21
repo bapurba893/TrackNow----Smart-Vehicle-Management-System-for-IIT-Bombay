@@ -1,0 +1,18 @@
+# Render blueprint for the TrackNow backend. Secrets are set in the Render dashboard.
+services:
+  - type: web
+    name: tracknow-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: MONGO_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SECURITY_SIGNUP_CODE
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false

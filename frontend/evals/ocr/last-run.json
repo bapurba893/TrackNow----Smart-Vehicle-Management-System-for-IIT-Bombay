@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-21T16:48:44.585Z",
+  "N": 150,
+  "seed": 20251,
+  "results": {
+    "easy": {
+      "sources": {
+        "plate-crop": 42,
+        "original": 1,
+        "binarized": 7
+      },
+      "n": 50,
+      "rawExact": 35,
+      "parserOnly": 37,
+      "full": 49,
+      "fullWrongButConfident": 1,
+      "rejected": 0,
+      "failures": [
+        {
+          "expected": "TR44ZM6995",
+          "got": "TR44IM6995",
+          "ocr": "TR 44 IM 6995"
+        }
+      ]
+    },
+    "medium": {
+      "sources": {
+        "plate-crop": 38,
+        "binarized": 8,
+        "original": 3,
+        "none": 1
+      },
+      "n": 50,
+      "rawExact": 21,
+      "parserOnly": 24,
+      "full": 43,
+      "fullWrongButConfident": 2,
+      "rejected": 1,
+      "failures": [
+        {
+          "expected": "KL06X1546",
+          "got": "KL00GX1546",
+          "ocr": "KLO06X 1546"
+        },
+        {
+          "expected": "UK05BV6358",
+          "got": "LR58V6358",
+          "ocr": "RRP SRI 0 / SE / CT RE / ERT RES / LR / 5 BV 63582 / LN / CE A / P / CE"
+        },
+        {
+          "expected": "AN18VJ7207",
+          "got": "AN18V7207",
+          "ocr": "AN 18 / V 7207"
+        },
+        {
+          "expected": "HR32CV6731",
+          "got": "HR32V6731",
+          "ocr": "HR32V 6731"
+        },
+        {
+          "expected": "JK20DZ0947",
+          "got": "UN79NU0947",
+          "ocr": "T / 1 K / 1 1K MN / L J 20D / SE IL / LU N79 / N U 0947 / 0 L 1947 / 2 047 / I 74 / CE / VW"
+        },
+        {
+          "expected": "OD46GP2248",
+          "got": null,
+          "ocr": "FR A ATER SIR / LE /  / LTE /  / SH BE /  / CS / 1 OD 16 / EE ER / 00 KK / EE BN FA / E BR A D / A A"
+        },
+        {
+          "expected": "TS29HG2697",
+          "got": "RE55R1441",
+          "ocr": "RT A EE / A / A / CR ES SR I A / A / LC / ER / CL / RR"
+        }
+      ]
+    },
+    "hard": {
+      "sources": {
+        "binarized": 9,
+        "plate-crop": 35,
+        "none": 3,
+        "original": 3
+      },
+      "n": 50,
+      "rawExact": 15,
+      "parserOnly": 21,
+      "full": 28,
+      "fullWrongButConfident": 8,
+      "rejected": 3,
+      "failures": [
+        {
+          "expected": "JK13M0827",
+          "got": "RS58AP1424",
+          "ocr": "RRR / ERI TEIN LL / AA E / CC / CE 2 / 3 53 /  / TION /  / RS 5 / BAP / 1 A Z / ART TR / RRR / GC C /  / 3 ST /  / PANE ST A / SEAL"
+        },
+        {
+          "expected": "WB32M3445",
+          "got": null,
+          "ocr": ""
+        },
+        {
+          "expected": "HR19F2614",
+          "got": "AR19F2614",
+          "ocr": "14 / R19 F 2614"
+        },
+        {
+          "expected": "GA11G1752",
+          "got": "TS11G1156",
+          "ocr": "PE / 2 / ATS / 11 G 115 / GA"
+        },
+        {
+          "expected": "GA50KB9705",
+          "got": null,
+          "ocr": "GA 50"
+        },
+        {
+          "expected": "HR22AJ8398",
+          "got": "HR22AJ8393",
+          "ocr": "HR22 / AJ 8393"
+        },
+        {
+          "expected": "OD30JX0605",
+          "got": "OD30JX0603",
+          "ocr": "OD 30 JX 0603"
+        },
+        {
+          "expected": "KA43VM6379",
+          "got": "MM89VM6770",
+          "ocr": "N RA / BIEN /  / A AR /  / PRR T07 /  / UE / BETES /  / KA 49 U / RB ALI VM 70 /  LLMM89 VM 6770 J / 37 EE AL J VJ J 7 / SHARE GN / TC BE J / 2 / S"
+        }
+      ]
+    }
+  }
+}
